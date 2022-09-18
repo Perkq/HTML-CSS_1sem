@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style2.css">
+<head>
+<title>Задание 1</title>
+<style>
+    .txt {
+        font-size: 36px;
+    }
+</style>
+</head>
+<body>
+<svg>
+<defs>
+<path id="text1" fill="none" stroke="blue" d="M10 40 C 80 10, 190 10, 95 80 S 200 140, 180 100"/>
+</defs>
+<use xlink:href="#text1"/>
+<text class="txt1" x="180" y="190" text-anchor="middle">
+<textPath xlink:href="#text1">
+vsem privet
+</textPath>
+</svg>
+
+</body>
+</html>

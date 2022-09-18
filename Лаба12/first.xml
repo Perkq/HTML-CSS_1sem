@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="first-x.xsl"?>
+<FACULTY>
+    <SPECIALIZATION>
+        <NAME> Svyat </NAME>
+        <TIME> 2004 </TIME>
+        <DATA> June. 2 </DATA>
+        <POL> M. </POL>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME> Artyom </NAME>
+        <TIME> 2003 </TIME>
+        <DATA> Okt. 12 </DATA>
+        <POL> M. </POL>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME> Alina </NAME>
+        <TIME> 2002 </TIME>
+        <DATA> Nov. 12 </DATA>
+        <POL> F. </POL>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME> Liza </NAME>
+        <TIME> 2005 </TIME>
+        <DATA> July. 23 </DATA>
+        <POL> F. </POL>
+    </SPECIALIZATION>
+</FACULTY>

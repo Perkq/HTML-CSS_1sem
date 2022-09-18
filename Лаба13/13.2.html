@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<p id="Model"></p>
+		<p id="Color"></p>
+		<p id="Date"></p>
+		<script>
+			txt = "<info>";
+			txt = txt + "<Model>BMW</Model>";
+			txt = txt + "<Color>Black</Color>";
+			txt = txt + "<Date>2003</Date>";
+			txt = txt + "</info>";
+			if (window.DOMParser) {
+				parser = new DOMParser();
+				xmlDoc = parser.parseFromString(txt, "text/xml");
+			} else {
+				xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+				xmlDoc.async = false;
+				xmlDoc.loadXML(txt);
+			}
+			document.getElementById("Model").innerHTML =
+				xmlDoc.getElementsByTagName("Model")[0].childNodes[0].nodeValue;
+			document.getElementById("Color").innerHTML =
+				xmlDoc.getElementsByTagName("Color")[0].childNodes[0].nodeValue;
+			document.getElementById("Date").innerHTML =
+				xmlDoc.getElementsByTagName("Date")[0].childNodes[0].nodeValue;
+		</script>
+	</body>
+</html>

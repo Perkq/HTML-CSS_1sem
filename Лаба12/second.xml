@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="second-x.xsl"?>
+<MAIN>
+    <TABLE>
+        <NAME> Svyat </NAME>
+        <OZENKA> 10 </OZENKA>
+    </TABLE>
+    <TABLE>
+        <NAME> Leha </NAME>
+        <OZENKA> 8 </OZENKA>
+    </TABLE>
+    <TABLE>
+        <NAME> Petya </NAME>
+        <OZENKA> 3 </OZENKA>
+    </TABLE>
+    <TABLE>
+        <NAME> Kirya </NAME>
+        <OZENKA> 7 </OZENKA>
+    </TABLE>
+    <TABLE>
+        <NAME> Artyom </NAME>
+        <OZENKA> 6 </OZENKA>
+    </TABLE>
+    <TABLE>
+        <NAME> Lena </NAME>
+        <OZENKA> 2 </OZENKA>
+    </TABLE>
+</MAIN>

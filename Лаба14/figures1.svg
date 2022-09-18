@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" 
+height="700">
+<defs>
+    <linearGradient id="Grad1">
+        <stop offset="0%" stop-color="green"/>
+        <stop offset="100%" stop-color="orange"/>
+    </linearGradient>
+    <radialGradient id="Grad2">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="100%" stop-color="blue"/>
+    </radialGradient>
+</defs>
+<circle cx="50" cy="50" r="50" fill="url(#Grad2)"/> 
+<rect x="125" y="0" width="125" height="100" fill="red"/> 
+<ellipse cx="375" cy="50" rx="100" ry="50" fill="green"/>
+<polygon fill="url(#Grad1)"
+points="550,0 500,100 600,100 550,0" />
+<polyline
+points="0,125 350,125 325,137 700,137" fill="purple"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" 
+height="700">
+<circle cx="50" cy="50" r="50" fill="blue"/>
+<rect x="125" y="0" width="125" height="100" fill="red" stroke="none">
+    <animate attributeName="stroke" dur="4s" begin="click" stroke="blue" stroke-width="1px" repeatCount="indefinite"/>
+</rect> 
+<ellipse cx="375" cy="50" rx="100" ry="50" fill="green">
+    <animate attributeName="fill" dur="4s" from="green" to="cyan" repeatCount="indefinite"/>
+</ellipse>
+<polygon fill="yellow"
+points="550,0 500,100 600,100 550,0" stroke="none">
+<animate attributeName="stroke" dur="4s" begin="mouseover" end="mouseout" stroke="blue" stroke-width="1px" repeatCount="indefinite"/>
+</polygon>
+<polyline fill="purple"
+points="0,125 350,125 325,137 700,137"/>
+</svg>

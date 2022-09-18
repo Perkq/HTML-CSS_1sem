@@ -1,0 +1,65 @@
+@import url(imp.css) (max-width: 768px);
+
+div.container1 > div {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.container1 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-flow: row wrap;
+	/* display: grid;
+	grid-template-columns: 80px 80px 80px;
+	grid-template-rows: 10px;
+	grid-gap: 5px; */
+}
+
+.div1c1 {
+	width: 100%;
+}
+
+.div2c1 {
+	width: 32.2%;
+}
+
+.div3c1 {
+	width: 32.2%;
+}
+
+.div4c1 {
+	width: 32.2%;
+}
+
+.flexbox {
+	width: 32.2%;
+}
+
+div.container1 > div.div5c1 {
+	border: 1px solid white;
+}
+/* <--------------- Задание 4 --------------------> */
+
+#spec {
+	display: none;
+}
+
+.foto div {
+	display: inline;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+@media (max-width: 1280px) {
+	.foto div {
+		display: block;
+	}
+
+	#spec {
+		display: none;
+	}
+}

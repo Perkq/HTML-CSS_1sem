@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<style>
+			body {
+				background-color: black;
+			}
+
+			.boina li {
+				display: inline;
+			}
+
+			.boina a {
+				display: inline-block;
+				border: 1px solid whitesmoke;
+				padding: 5px 15px 5px 15px;
+				background-color: yellow;
+				text-decoration: none;
+				color: blue;
+				margin-right: -4px;
+			}
+
+			ul.boina {
+				text-align: center;
+			}
+
+			ul.nav {
+				float: right;
+				list-style-type: none;
+				color: white;
+			}
+
+			ul.nav a {
+				display: block;
+				border: 2px solid white;
+				background-color: yellowgreen;
+				right: 30px;
+				padding: 10px;
+			}
+
+			h1 {
+				color: white;
+				margin: 30px;
+				margin-left: 50px;
+			}
+
+			div[name="1"] {
+				display: inline-flex;
+				margin: 50px;
+				border: 1px solid black;
+			}
+
+			div.kli4ko {
+				margin: 50px;
+				position: relative;
+			}
+
+			div[name="kli4ko1"] {
+				animation: kli4ko1 4s linear infinite;
+			}
+
+			div[name="kli4ko2"] {
+				animation: kli4ko2 4s linear infinite;
+			}
+
+			div[name="kli4ko3"] {
+				animation: kli4ko3 4s linear infinite;
+				margin-left: 400px;
+			}
+
+			div[name="kli4ko4"] {
+				animation: kli4ko4 4s linear infinite;
+			}
+
+			p {
+				animation: lol 4s linear infinite;
+				margin: auto;
+				width: 600px;
+				height: 100px;
+				font-size: 50px;
+			}
+
+			img {
+				width: 300px;
+				height: 300px;
+			}
+
+			.first {
+				transform-style: preserve-3d;
+				transform-origin: center;
+				transform: skewX(15deg);
+			}
+
+			.second {
+				transform: skewY(-15deg);
+			}
+
+			.third {
+				transform: skewX(15deg);
+			}
+
+			.forth {
+				transform: skewY(15deg);
+			}
+
+			.first:hover {
+				transform: scale(0.5);
+			}
+
+			.second:hover {
+				transform: rotate(45deg);
+			}
+
+			.third:hover {
+				transform: translateX(50px);
+			}
+
+			.forth:hover {
+				transform: skew(-20deg);
+			}
+
+			div.rofl {
+				width: 200px;
+				height: 200px;
+				border: 2px solid red;
+				color: white;
+				animation: photo 5s linear infinite;
+			}
+
+			a.one:link {
+				text-decoration: none;
+				color: red;
+			}
+
+			a.two:visited {
+				color: #8b0000;
+			}
+
+			a.three:hover {
+				color: green;
+			}
+
+			a.four:active {
+				color: rgb(184, 134, 11);
+			}
+
+			@keyframes photo {
+				0% {
+					background: url(images/1.jpg);
+				}
+				25% {
+					background: url(images/2.jpg);
+				}
+				50% {
+					background: url(images/3.jpg);
+				}
+				75% {
+					background: url(images/4.jpg);
+				}
+				100% {
+					background: url(images/5.jpg);
+				}
+			}
+
+			@keyframes lol {
+				0% {
+					color: red;
+				}
+				25% {
+					color: blue;
+				}
+				50% {
+					color: purple;
+				}
+				75% {
+					color: green;
+				}
+				100% {
+					color: brown;
+				}
+			}
+
+			@keyframes kli4ko1 {
+				0% {
+					left: 0px;
+					top: 0;
+				}
+				50% {
+					left: 900px;
+					top: 0;
+				}
+
+				100% {
+					left: 0px;
+					top: 0px;
+				}
+			}
+
+			@keyframes kli4ko2 {
+				0% {
+					left: 0px;
+					top: 0px;
+				}
+
+				50% {
+					left: 0px;
+					top: 350px;
+				}
+
+				100% {
+					left: 0px;
+					top: 0px;
+				}
+			}
+
+			@keyframes kli4ko3 {
+				0% {
+					left: 0px;
+					bottom: 0px;
+				}
+
+				25% {
+					left: 300px;
+					bottom: 300px;
+				}
+
+				75% {
+					left: 600px;
+					bottom: 0px;
+				}
+
+				100% {
+					left: 0px;
+					bottom: 0px;
+				}
+			}
+
+			@keyframes kli4ko4 {
+				0% {
+					left: 0;
+					top: 0;
+				}
+				25% {
+					left: 400px;
+					top: 0;
+				}
+				50% {
+					left: 400px;
+					top: 400px;
+				}
+				75% {
+					left: 0;
+					top: 400px;
+				}
+				100% {
+					left: 0;
+					top: 0;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<ul class="boina">
+			<li><a href="#h1">Задание 1,2</a></li>
+			<li><a href="#h2">Задание 3</a></li>
+			<li><a href="#h3">Задание 4</a></li>
+			<li><a href="#h4">Задание 5</a></li>
+		</ul>
+
+		<ul class="nav">
+			<li><a href="../Лаба1,2/Лаба1.html" class="one">Задание 1</a></li>
+			<li><a href="../Лаба3/Text.html" class="two">Задание 2</a></li>
+			<li><a href="../Лаба4/Лаба4.1.html" class="three">Задание 3</a></li>
+			<li><a href="../Лаба5/block.html" class="four">Задание 4</a></li>
+		</ul>
+
+		<h1><a name="h1"></a>Задание 1, 2</h1>
+
+		<div class="first" name="1"><img src="images/1.jpg" alt="котики" /></div>
+		<div class="second" name="1"><img src="images/2.jpg" alt="котики" /></div>
+		<div class="third" name="1"><img src="images/3.jpg" alt="котики" /></div>
+		<div class="forth" name="1"><img src="images/4.jpg" alt="котики" /></div>
+
+		<h1><a name="h2"></a>Задание 3</h1>
+
+		<p>Котики очень красивые</p>
+
+		<h1><a name="h3"></a>Задание 4</h1>
+
+		<div class="rofl"></div>
+
+		<h1><a name="h4"></a>Задание 5</h1>
+
+		<div class="kli4ko" name="kli4ko1">
+			<img src="images/kli4ko.jpg" alt="kli4ko" />
+		</div>
+
+		<div class="kli4ko" name="kli4ko2">
+			<img src="images/kli4ko.jpg" alt="kli4ko" />
+		</div>
+
+		<div class="kli4ko" name="kli4ko3">
+			<img src="images/kli4ko.jpg" alt="kli4ko" />
+		</div>
+
+		<div class="kli4ko" name="kli4ko4">
+			<img src="images/kli4ko.jpg" alt="kli4ko" />
+		</div>
+
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<p>kli4ko</p>
+	</body>
+</html>

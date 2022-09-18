@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Задание 4</title>
+		<style>
+			table {
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<form>
+				<tr>
+					<th align="left" colspan="2">
+						<a href="Лаба1.html">Оформить заказ</a>
+					</th>
+				</tr>
+				<tr>
+					<td>Имя</td>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+					<td>Телефон</td>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+					<td>Адрес</td>
+					<td rowspan="3">
+						<textarea rows="3"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td rowspan="3">Способ оплаты</td>
+					<td><input name="perecl" type="radio" />Наличные</td>
+				</tr>
+				<tr>
+					<td><input name="perecl" type="radio" />Пластиковая карта</td>
+				</tr>
+				<tr>
+					<td><input name="perecl" type="radio" />Безналичный расчет</td>
+				</tr>
+				<tr>
+					<td>Желаемый день доставки</td>
+					<td>
+						<select>
+							<option>Понедельник</option>
+							<option>Вторник</option>
+							<option>Среда</option>
+							<option>Четверг</option>
+							<option>Пятница</option>
+							<option>Суббота</option>
+							<option>Воскресенье</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="2">Дополнительно</td>
+					<td><input type="checkbox" />перед доставкой свяжитесь со мной</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" />курьер должен быть трезвым</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="button" value="Отправить" />
+					</td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>

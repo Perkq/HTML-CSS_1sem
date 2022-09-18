@@ -1,0 +1,4 @@
+<!ELEMENT note (about, some, info)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT some (#PCDATA)>
+<!ELEMENT info (#PCDATA)>

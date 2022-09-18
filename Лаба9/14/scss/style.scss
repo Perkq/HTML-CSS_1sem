@@ -1,0 +1,16 @@
+$font_col: green;
+$font_size: 32px;
+$attr: text;
+$back-color: yellow;
+$f: fill;
+tspan {
+  font-size: $font_size;
+  fill: $font_col;
+}
+.text {
+}
+.cog1 {
+  #{$f}: $back-color;
+}
+.cog2 {
+}

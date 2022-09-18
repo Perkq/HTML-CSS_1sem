@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<style>
+			#perk {
+				background-color: rgba(255, 255, 255, 0.5);
+				color: rgba(255, 255, 255, 1);
+				box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75);
+			}
+
+			#po4ta {
+				background-color: rgba(255, 255, 255, 0.5);
+				color: rgba(255, 255, 255, 1);
+				box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75);
+			}
+
+			#perk:focus {
+				color: black;
+				background-color: black;
+			}
+
+			#knopka {
+				color: white;
+				background-color: navy;
+				box-shadow: 0 0 4px white;
+			}
+
+			.prikol {
+				margin: 0 50px;
+			}
+
+			.maindiv {
+				display: flex;
+				justify-content: center;
+			}
+
+			text {
+				background-color: rgba(255, 255, 255, 0.5);
+				color: rgba(255, 255, 255, 1);
+				box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75);
+			}
+
+			.lol {
+				line-height: 21px;
+				color: white;
+			}
+
+			p {
+				size: 1.2em;
+			}
+
+			form {
+				border-radius: 100px;
+				width: 30%;
+				background-color: indigo;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form>
+			<p style="color: white; text-align: center">
+				Регистрация постоянного клиента
+			</p>
+			<div class="maindiv">
+				<div class="prikol">
+					<p class="lol">Фамилия:</p>
+					<p class="lol">Имя:</p>
+					<p class="lol">Отчество:</p>
+					<p class="lol">Ваш возраст:</p>
+					<p class="lol">Пол:</p>
+					<p class="lol">Email:</p>
+					<p class="lol">Страна проживания:</p>
+					<p class="lol">Откуда выузнали про нас?</p>
+					<p class="lol">Дата заполнения:</p>
+				</div>
+
+				<div class="prikol">
+					<p><input type="text" name="opa" id="perk" /></p>
+
+					<p><input type="text" name="opa" id="perk" /></p>
+
+					<p><input type="text" name="opa" id="perk" /></p>
+
+					<p><input type="text" name="opa" id="perk" /></p>
+
+					<p class="lol">
+						<input name="felix" type="radio" /> мужской
+						<input name="felix" type="radio" checked /> женский
+					</p>
+
+					<p><input type="text" name="opa" id="po4ta" /></p>
+
+					<p><input type="text" name="opa" id="perk" /></p>
+
+					<p>
+						<select>
+							<option>Выберите вариант</option>
+							<option>От друзей</option>
+							<option>Реклама</option>
+							<option>Случайно нашёл</option>
+						</select>
+					</p>
+
+					<input type="date" />
+				</div>
+			</div>
+			<br />
+			<div class="prikol" style="text-align: center">
+				<input type="button" value="Регистрация" id="knopka" /><input
+					type="button"
+					value="Отмена"
+					id="knopka"
+					onclick="document.location='Ссылки.html'"
+				/>
+			</div>
+		</form>
+	</body>
+</html>
